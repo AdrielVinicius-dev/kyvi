@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Hanuman:wght@100;300;400;700;900&family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Hanuman:wght@100;300;400;700;900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/pexels-zakaria-3048873.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 76vh;
+    
+  }
+  
+  header {
+    text-align: center;
+    padding: px 60px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+  }
+
+
+  header h1 a{
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1.8px;
+    font-weight: 800;
+    font-size: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+
+  ul {
+    width: 800px;
+  }
+
+  ul li {
+    list-style: none;
+    display: inline;
+    vertical-align: top;
+    margin-right: 5%;
+    width: 30%;
+  }
+
+  ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Encode Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+  }
+
+  ul a:hover{
+    color: rgb(194, 35, 7);
+    transition-duration: .4s;
+  }
+  #content {
+    color: white;
+    padding: 20px;
+  }
+
+  #content h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Titan One", sans-serif;
+    font-weight: 100;
+    padding-left: 80px;
+    padding-bottom: 15px;
+    letter-spacing: 1.5px;
+    line-height: 55px;
+  }
+
+  #texto1 h2{
+    padding-left: 20px;
+    text-align: center;
+  
+  }
+
+  #content p{
+    padding-left: 20px;
+    max-width: 800px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: lightgray;
+    font-size: 18px;
+    margin: auto;
+  }
+
+  #content p strong{
+    color: rgb(128, 128, 226);
+    cursor: pointer;
+  }
+
+
+
+  footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+  }
