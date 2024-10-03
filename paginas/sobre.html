@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(39, 39, 39);
+        }
+
+        header h1{
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 15px;
+            text-transform: uppercase;
+        
+        }
+
+        header a:hover{
+            color: rgb(194, 35, 7);
+            transition-duration: .4s;
+        }
+
+        table{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgb(253, 113, 120);
+            font-size: 18px;
+        }
+
+        td{
+            border: 1px solid rgb(255, 255, 255);
+            padding: 10px;
+            margin-left: 20px;
+            color: white;
+        }
+
+        #mulheres{
+            font-weight: bold;
+        }
+
+        #homens{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Equipe Kyvi</h1>
+
+        <p><a href="../kyvi.html">inicio</a></p>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Sexo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Dados</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3 id="mulheres" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>25 anos</td>
+                <td>designer</td>
+                <td>1 ano na empresa</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>20 anos</td>
+                <td>gerente de projetos</td>
+                <td>5 anos de empresa</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>30 anos</td>
+                <td>designer</td>
+                <td>3 anos de empresa</td>
+            </tr>
+            <tr>
+                <th rowspan="3" id="homens" scope="rowgroup">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>26 anos</td>
+                <td>programador</td>
+                <td>2 anos de empresa</td>
+            </tr>
+
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>23 anos</td>
+                <td>programador</td>
+                <td>3 anos de empresa</td>
+            </tr>
+
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>28 anos</td>
+                <td>designer</td>
+                <td>2 anos de empresa</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th colspan="4" scope="row">Total de colaboradores</th>
+            <td>6 colaboradores</td>
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
